@@ -1,0 +1,22 @@
+.image-row {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-container {
+  flex: 1;
+  text-align: center;
+}
+
+.image-container img {
+  margin: 0 10px;
+  width: 300px;
+  height: 200px;
+}
+
+.project-section p {
+  max-width: 800px;
+}
