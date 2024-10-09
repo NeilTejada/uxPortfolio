@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./css/base.css" />
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/section.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
     <title>UX Portfolio</title>
   </head>
   <body>
@@ -26,84 +27,80 @@
 
       <!--right side-->
       <nav class="center-row">
-        <!--hamburger button-->
-        <input type="checkbox" id="nav-check" />
-        <div class="nav-btn">
-          <label for="nav-check">
-            <span></span>
-            <span></span>
-            <span></span>
-          </label>
-        </div>
-
         <!--menu links-->
         <div class="nav-link center-row">
-          <a href="./index.html">Work</a>
-          <a href="./contact.html">Contact</a>
+          <a href="./index.html">Projects</a>
+          <div class="contact-info">
+            <a href="https://www.linkedin.com/in/neiltejada/" target="_blank"
+              >LinkedIn</a
+            >
+            <a href="https://github.com/NeilTejada" target="_blank">GitHub</a>
+            <a href="" target="_blank">Resume</a>
+          </div>
         </div>
       </nav>
     </header>
+
+    <section class="project-section center-column">
+      <h2>Projects</h2>
+
+      <div class="project-list">
+        <!--project cards-->
+
+        <!--card one-->
+        <div class="project-card">
+          <a href="./projects/uxProject.html">
+            <img src="./img/portfolio.jpg" />
+            <p>UX Portfolio Project</p>
+            <p>
+              This project showcases the steps taken to create a responsive
+              portfolio, that you're viewing today!
+            </p>
+            <p>2024</p>
+            <div class="skill-container center-row">
+              <label class="label-text">Figma</label>
+              <label class="label-text">html</label>
+              <label class="label-text">css</label>
+              <label class="label-text">vscode</label>
+              <label class="label-text">Github</label>
+            </div>
+          </a>
+        </div>
+
+        <!--card two-->
+        <div class="project-card">
+          <a href="./projects/realEstate.html">
+            <img src="./img/realEstateFigma.jpg" />
+            <p>Real Estate Project</p>
+            <p>This project showcases a responsive real estate page.</p>
+            <p>2024</p>
+            <div class="skill-container center-row">
+              <label class="label-text">Figma</label>
+              <label class="label-text">html</label>
+              <label class="label-text">css</label>
+              <label class="label-text">vscode</label>
+              <label class="label-text">Github</label>
+            </div>
+          </a>
+        </div>
+
+        <!--card three-->
+        <div class="project-card">
+          <a href="./projects/coffeeBlog.html">
+            <img src="./img/coffeeBlogFigma.jpg" />
+            <p>Coffee Blog Project</p>
+            <p>This project showcases a responsive coffee blog page.</p>
+            <p>2024</p>
+            <div class="skill-container center-row">
+              <label class="label-text">Figma</label>
+              <label class="label-text">html</label>
+              <label class="label-text">css</label>
+              <label class="label-text">vscode</label>
+              <label class="label-text">Github</label>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
   </body>
-
-  <section class="project-section center-column">
-    <h2>Projects</h2>
-
-    <div class="project-list">
-      <!--project cards-->
-
-      <!--card one-->
-      <div class="project-card">
-        <a href="./projects/uxProject.html">
-          <img src="./img/portfolio.jpg" />
-          <p>UX Portfolio Project</p>
-          <p>
-            This project showcases the steps taken to create a responsive
-            portfolio, that you're viewing today!
-          </p>
-          <p>2024</p>
-          <div class="skill-container center-row">
-            <label class="label-text">Figma</label>
-            <label class="label-text">html</label>
-            <label class="label-text">css</label>
-            <label class="label-text">vscode</label>
-            <label class="label-text">Github</label>
-          </div>
-        </a>
-      </div>
-
-      <!--card two-->
-      <div class="project-card">
-        <a href="./projects/realEstate.html">
-          <img src="./img/realEstateFigma.jpg" />
-          <p>Real Estate Project</p>
-          <p>This project showcases a responsive real estate page.</p>
-          <p>2024</p>
-          <div class="skill-container center-row">
-            <label class="label-text">Figma</label>
-            <label class="label-text">html</label>
-            <label class="label-text">css</label>
-            <label class="label-text">vscode</label>
-            <label class="label-text">Github</label>
-          </div>
-        </a>
-      </div>
-
-      <!--card three-->
-      <div class="project-card">
-        <a href="./projects/coffeeBlog.html">
-          <img src="./img/coffeeBlogFigma.jpg" />
-          <p>Coffee Blog Project</p>
-          <p>This project showcases a responsive coffee blog page.</p>
-          <p>2024</p>
-          <div class="skill-container center-row">
-            <label class="label-text">Figma</label>
-            <label class="label-text">html</label>
-            <label class="label-text">css</label>
-            <label class="label-text">vscode</label>
-            <label class="label-text">Github</label>
-          </div>
-        </a>
-      </div>
-    </div>
-  </section>
 </html>
