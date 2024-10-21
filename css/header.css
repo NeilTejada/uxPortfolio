@@ -2,6 +2,8 @@ header {
   height: 60px;
   position: sticky;
   top: 0px;
+  background-color: rgb(113, 113, 113);
+  z-index: 1000;
 }
 
 /* left side */
@@ -37,6 +39,11 @@ nav {
   border-bottom: solid 2px red;
 }
 
+.content-section {
+  z-index: 1;
+  margin-top: 60px;
+}
+
 .contact-info {
   display: inline-flex;
   align-items: center;
@@ -50,16 +57,16 @@ nav {
   margin-left: 10px;
 }
 
-#nav-check,
+/* #nav-check,
 .nav-btn {
   display: none;
-}
+} */
 
 /* hamburger button */
-.nav-btn span {
+/* .nav-btn span {
   display: block;
   background-color: white;
   width: 30px;
   height: 3px;
   margin: 6px auto;
-}
+} */
